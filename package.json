@@ -1,0 +1,26 @@
+{
+  "name": "ngraph.hits",
+  "version": "0.1.0",
+  "description": "Hubs and authorities (HITS) algorithm for ngraph.graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hits",
+    "hubs",
+    "and",
+    "authorities",
+    "hypertext-induced",
+    "topic",
+    "selection",
+    "ngraph",
+    "pagerank"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/ngraph.hits"
+  }
+}
