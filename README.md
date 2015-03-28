@@ -21,7 +21,7 @@ var hits = require('ngraph.hits');
 var result = hits(graph);
 ```
 
-Now result will be an object with the following values:
+Now `result` will be an object with the following values:
 
 ``` js
 {
@@ -39,7 +39,7 @@ Now result will be an object with the following values:
 By default the algorithm will compute ranks values with `1e-8` precision. You
 can configure this by passing optional argument:
 
-```
+``` js
 var precision = 1e-5;
 hits(graph, precision); // compute with 1e-5 precision
 ```
