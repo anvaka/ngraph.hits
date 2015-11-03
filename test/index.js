@@ -35,3 +35,10 @@ test('it calculates hubs and authorities for a graph', function(t) {
     t.ok(diff <= 1e-4, message);
   }
 });
+
+test('it can handle empty graph', function(t) {
+  var graph = fromDot('digraph G {}');
+  var result = hits(graph);
+  t.ok(result, 'it has some result');
+  t.end();
+});

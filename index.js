@@ -44,7 +44,12 @@ function convertToSourceGraph(originalGraph, hitsGraph) {
 function initialize(graph) {
   var hitsNodes = [];
   var totalNodes = graph.getNodesCount();
-  if (totalNodes === 0) return hitsNodes; // degenerate case of empty graph
+  if (totalNodes === 0) {
+    return {
+      nodes: [],
+      nodeIdToIndex: []
+    }; // degenerate case of empty graph
+  }
 
   var nodeIdToIndex = Object.create(null);
   var idx = 0;
