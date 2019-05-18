@@ -1,6 +1,6 @@
 {
   "name": "ngraph.hits",
-  "version": "0.1.1",
+  "version": "2.0.0",
   "description": "Hubs and authorities (HITS) algorithm for ngraph.graph",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/anvaka/ngraph.hits"
   },
   "devDependencies": {
-    "ngraph.fromdot": "^0.2.0",
-    "tap": "^0.7.1"
+    "ngraph.fromdot": "^5.0.0",
+    "tap": "^14.0.0"
   }
 }
