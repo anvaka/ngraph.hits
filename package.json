@@ -24,7 +24,7 @@
     "url": "https://github.com/anvaka/ngraph.hits"
   },
   "devDependencies": {
-    "ngraph.fromdot": "^5.0.0",
-    "tap": "^14.0.0"
+    "ngraph.fromdot": "^6.0.1",
+    "tap": "^14.10.8"
   }
 }
