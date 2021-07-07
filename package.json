@@ -4,7 +4,7 @@
   "description": "Hubs and authorities (HITS) algorithm for ngraph.graph",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap --branches=80 --lines=80 --statements=80 --functions=80 test/*.js"
   },
   "keywords": [
     "hits",
@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "ngraph.fromdot": "^6.0.1",
-    "tap": "^14.10.8"
+    "tap": "^15.0.9"
   }
 }
