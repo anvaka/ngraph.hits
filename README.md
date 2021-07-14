@@ -1,4 +1,4 @@
-# ngraph.hits [![build status](https://secure.travis-ci.org/anvaka/ngraph.hits.png)](http://travis-ci.org/anvaka/ngraph.hits)
+# ngraph.hits [![build status](https://github.com/anvaka/ngraph.hits/actions/workflows/tests.yaml/badge.svg)](https://github.com/anvaka/ngraph.hits/actions/workflows/tests.yaml)
 
 Hubs and authorities (HITS) algorithm for [`ngraph.graph`](https://github.com/anvaka/ngraph.graph).
 HITS algorithm is a link analysis algorithm, which assigns each graph node two
