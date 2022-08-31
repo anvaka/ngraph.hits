@@ -1,6 +1,6 @@
 {
   "name": "ngraph.hits",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Hubs and authorities (HITS) algorithm for ngraph.graph",
   "main": "index.js",
   "types": "./index.d.ts",
